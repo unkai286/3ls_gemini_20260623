@@ -10,6 +10,8 @@ GOOGLE_API_KEY=(取得したAPIキー)
 docker-compose up -d --build
 docker-compose up -d
 
+#new comment
+
 # 個別実行
 docker exec -it streamlit /bin/bash -c "streamlit run /workspace/src/3lw_gemini/app.py"
 - 初回はCSVをベクトル化するので、数分かかります。
